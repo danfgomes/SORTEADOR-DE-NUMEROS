@@ -20,7 +20,7 @@ function sortear() {
 
         while (sorteados.includes(numero)) {
             numero = obterNumeroAleatorio(de, ate);
-            alert("TENTANDO OBTER NÚMERO INÉDITO");
+            
         }
 
         sorteados.push(numero);
